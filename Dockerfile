@@ -1,3 +1,6 @@
 FROM datalust/seq:preview
 
 ARG ACCEPT_EULA=Y
+
+EXPOSE 80
+EXPOSE 5341
